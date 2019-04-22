@@ -1,0 +1,258 @@
+#media-wrapper{background-color: #f1f1f1; position: relative}
+#media-wrapper,
+#media-box{height: 750px}
+
+.main-media-item-info-box{display: table-cell; vertical-align: middle;}
+
+
+
+
+
+
+
+/* ------------------- */
+.main-media-item-info-center{
+    text-align: center; display: table; position: absolute; width: 100%; z-index: 10;
+    height: 540px; top: 50%; text-align: center; margin-top: -270px; box-sizing: border-box; z-index: 10;
+}
+.main-media-item-info-center .main-media-item-info-box{padding-top: 180px;}
+.main-media-item-info-center h2{font-size: 60px; font-weight: bold; line-height: 70px; margin: 0px 0px 10px 0px; color: #fff}
+.main-media-item-info-center i{
+    font-size: 20px; font-style: normal; display: inline-block; margin: 0px 0px 30px 0px; color: #fff;
+    padding: 20px; border: 3px solid #fff;
+}
+.main-media-item-info-center span{display: table-cell; vertical-align: middle}
+.main-media-item-info-center strong{color: #fff; padding: 15px 40px; font-size: 20pt; margin-bottom: 0px; font-weight: normal; display: block;}
+.main-media-item-info-center ul{margin-bottom: 30px}
+.main-media-item-info-center li{
+    background-image: url("http://russkiysyr.ru/img/icons/check.png"); background-size: 40px; background-repeat: no-repeat; background-position: center left;
+    display: inline-block; color: #fff; font-size: 16pt; padding: 10px 20px 10px 50px;
+}
+
+
+
+/* ------------------- */
+.main-media-item-info-left .main-media-item-info-box{padding-top: 100px;}
+.main-media-item-info-left{
+    height: 540px; top: 50%; left: 5%; text-align: center; margin-top: -270px; display: table; position: absolute;
+    box-sizing: border-box; padding: 80px 0px 0px 0px; width: 50%; z-index: 10;
+}
+.main-media-item-info-left h2{font-size: 60px; font-weight: bold; line-height: 70px; margin: 0px 0px 10px 0px; color: #fff;}
+.main-media-item-info-left i{
+    font-size: 20px; font-style: normal; display: inline-block; margin: 0px 0px 20px 0px; color: #fff;
+    padding: 20px; border: 3px solid #fff;
+}
+.main-media-item-info-left strong{color: #fff; padding: 15px 40px; font-size: 20pt; margin-bottom: 0px; font-weight: normal; display: block;}
+.main-media-item-info-left li{display: inline-block; color: #fff; font-size: 16pt; padding: 10px 20px 10px 40px; background-image: url("http://russkiysyr.ru/img/icons/check.png"); background-size: 30px; background-repeat: no-repeat; background-position: center left;}
+.main-media-item-info-left ul{margin-bottom: 30px}
+
+
+
+
+
+
+.media-box-info{height: 300px; position: absolute; width: 50%; top: 50%; margin-top: -170px; display: table; box-sizing: border-box; padding-left: 10%; padding-top: 100px;}
+.media-box-info h2{display: table-cell; vertical-align: middle; color: #fff; font-weight: normal; text-align: right; font-size: 40pt; line-height: 44pt; text-transform: uppercase;}
+
+.media-box-more{height: 83px; position: absolute; bottom: 0px; display: block; width: 100%;}
+.media-box-more b{width: 50%; display: block; height: 90px; text-align: right}
+.media-wrapper1 .media-box-more a{
+    display: inline-block; background-color: #007aff; height: 50px; padding: 0px 60px;
+    line-height: 50px; text-decoration: none; text-transform: uppercase;
+    color: #fff; font-size: 16pt; top: 20px; position: relative; margin: 0px auto;
+}
+.media-wrapper1 .media-box-more a:hover{background-color: #0068da;}
+
+
+
+.media-wrapper1 .media-box-more{background-color: transparent}
+.media-wrapper1 .media-box-info h2{color: #58532f}
+.media-wrapper-img1{position: absolute; bottom: 10px; left: 10%; width: 450px; display: none}
+.media-wrapper-img1 img{display: block; height: 100%; margin: 0px auto; display: block}
+.media-wrapper-img1 .media-box-more{background-color: #b5b5b5}
+.media-wrapper-img1-active{width: 500px; left: 15%}
+.media-wrapper-img1-active img{
+    -ms-transform: rotate(-35deg); /* IE 9 */
+    -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
+    transform: rotate(-35deg);
+}
+
+
+.media-wrapper2 .media-box-info h2{color: #58532f}
+.media-wrapper-img2{height: 100%; position: relative; display: block}
+.media-wrapper-img2 img{height: 100%; margin: 0px auto; display: block}
+
+.media-wrapper2 .media-box-more a{
+    font-size: 19pt; line-height: 40px; font-weight: bold; color: #009846; text-decoration: none; background-image: url("http://russkiysyr.ru/img/icons/more.svg");
+    background-size: auto 100%; background-repeat: no-repeat; background-position: right; padding-right: 50px; display: inline-block;
+    text-decoration: none; text-transform: uppercase; height: 40px; box-sizing: border-box; padding-left: 80px; font-weight: bold;
+}
+.media-wrapper2 .media-box-more a:hover{color: #222}
+.media-wrapper2 .media-box-more{width: 55%; margin-left: 45%; text-align: left; height: 60px}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- 7 -- */
+
+
+/* -- 2 -- */
+.main-media-item-info2 h2{}
+
+/* -- 9 -- */
+.main-media-item-info9 h2{}
+
+
+/* -- 2 -- */
+
+.main-media-item-info-left.main-media-item-info18 strong{margin-bottom: 20px}
+
+
+
+/* -- 9 -- */
+.main-media-item-info17 h2{}
+.main-media-item-info17 .main-media-books{width: 100%; margin-bottom: 20px}
+.main-media-item-info17 .main-media-book{
+    display: inline-block; width: 100px; height: 115px; margin: 0px 10px; background-position: 0px -12px; vertical-align: top;
+    background-image: url("http://russkiysyr.ru/img/icons/book.png"); background-size: 100px; background-repeat: no-repeat; cursor: pointer;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.main-media-item-info17 .main-media-book:hover,
+.main-media-item-info17 .main-media-book:active,
+.main-media-item-info17 .main-media-book:focus{text-decoration: none}
+
+.main-media-item-info17 .main-media-book span{
+    display: block; margin-top: 73px; position: relative; padding: 0px 10px; box-sizing: border-box; text-transform: lowercase;
+    color: #333; font-weight: 900; font-size: 14px; line-height: 16px;
+}
+
+.main-media-item-info17 .main-media-book-active{transform: rotate(-5deg)}
+
+.main-media-item-info17{text-align: center}
+.main-media-item-info17 .bttn-book-more a{font-size: 18px; text-decoration: none; color: #fff; border-bottom: 2px solid #fff; padding-bottom: 4px}
+.main-media-item-info17 .bttn-book-more a:hover{text-decoration: none; border-bottom: 0px;}
+.main-media-item-info-center.main-media-item-info17 strong{padding-top: 0px; margin-bottom: 10px}
+
+
+
+
+
+
+.main-media-item-info-center.main-media-item-info21 h2{font-weight: 100}
+.main-media-item-info-center.main-media-item-info21 h2 b{font-weight: 600}
+.main-media-item-info-center.main-media-item-info21 ul{display: inline-block; text-align: left}
+.main-media-item-info-center.main-media-item-info21 li{font-weight: 100; text-transform: uppercase; letter-spacing: 1px}
+.main-media-item-info-center.main-media-item-info21 li b{font-weight: 600}
+
+
+
+
+
+/* -- 14 -- */
+.main-media-item-info14 h2,
+.main-media-item-info14 i,
+.main-media-item-info14 li,
+.main-media-item-info14 strong{text-shadow: 2px 2px rgba(0, 0, 0, 0.2)}
+
+
+
+/* -- 16 -- */
+.main-media-item-info16 h2,
+.main-media-item-info16 i,
+.main-media-item-info16 li,
+.main-media-item-info16 strong{text-shadow: 2px 2px rgba(0, 0, 0, 0.2)}
+
+
+
+
+/* -- 21 -- */
+.main-media-item-info-left.main-media-item-info21 .main-media-item-info-box{padding-top: 50px;}
+
+/* -- 19 -- */
+.main-media-item-info19.main-media-item-info-left{padding: 60px 0px 0px 0px;}
+.main-media-item-info19.main-media-item-info-left h2{line-height: 65px; margin-bottom: 30px; font-size: 50px}
+
+
+/* -- 22 -- */
+.main-media-item-info22.main-media-item-info-center{padding: 0px 0px 0px 0px; height: 700px; bottom: 0px; top: auto;}
+.main-media-item-info22.main-media-item-info-center h2{line-height: 90px; font-weight: 600; font-size: 120px; margin-bottom: 0px}
+.main-media-item-info22.main-media-item-info-center h2 strong{
+    display: inline-block; font-size: 200px; margin: 0px; padding: 0px; font-family: 'Times New Roman'; font-style: italic;
+    font-weight: 900; vertical-align: middle; background-color: orange; width: 200px; height: 200px; line-height: 180px;
+    transform: rotate(-10deg);
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+.main-media-item-info22.main-media-item-info-center i{border: 0px solid #fff; font-family: georgia; font-style: italic; font-size: 30pt}
+
+
+.main-media-item-info-left.main-media-item-info23 .main-media-item-info-box{padding-top: 50px;}
+.main-media-item-info-center.main-media-item-info23 h2{font-weight: 100; font-size: 70pt}
+.main-media-item-info-center.main-media-item-info23 strong{margin-bottom: 30px; font-size: 30pt}
+
+
+/* -- 20 -- */
+.main-media-item-info20.main-media-item-info-center{padding: 60px 0px 0px 0px; height: 400px; bottom: 0px; top: auto;}
+.main-media-item-info20.main-media-item-info-center h2{line-height: 50px; font-weight: 400; margin-bottom: 40px; font-size: 35px}
+.main-media-item-info20 a{color: #fff;}
+.main-media-item-info20 a:active,
+.main-media-item-info20 a:hover{color: #fff;}
+.main-media-item-info20 img{width: 450px; margin-bottom: 20px}
+
+
+/* -- 26 -- */
+.main-media-item-info30.main-media-item-info-center{padding: 60px 0px 0px 0px; height: 400px; bottom: 0px; top: auto;}
+.main-media-item-info30.main-media-item-info-center h2{line-height: 55px; font-weight: 600; margin-bottom: 10px; font-size: 36px;}
+.main-media-item-info30 a{color: #fff; text-decoration: underline}
+.main-media-item-info30 a:active,
+.main-media-item-info30 a:hover{color: #fff; text-decoration: none}
+.main-media-item-info30 img{width: 400px; margin-bottom: 0px;}
+
+
+/* -- 24 -- */
+.main-media-item-info24 h2{
+    font-size: 55px;
+    line-height: 70px;
+}
+
+/* -- 25 -- */
+.main-media-item-info25 h2{font-size: 55px; line-height: 60px;}
+.main-media-item-info25.main-media-item-info-left ul{margin-bottom: 5px}
+.main-media-item-info25.main-media-item-info-left li{display: inline-block; padding-bottom: 0px; padding-top: 2px}
+.main-media-item-info25.main-media-item-info-left strong{font-size: 18pt; line-height: 20pt; margin-bottom: 10px}
+
+
+.main-media-item-info26 h2{margin-bottom: 30px}
+.main-media-item-info26.main-media-item-info-center strong{font-size: 18pt; line-height: 20pt; margin-bottom: 15px; padding: 0px;}
+.main-media-item-info26 .bttn-yellow{margin-top: 30px}
+
+
+.main-media-item-info27.main-media-item-info-left ul{margin-bottom: 0px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);, 0 0 1em rgba(0,0,0,0.2);}
+.main-media-item-info27.main-media-item-info-left strong{font-size: 16pt; margin-bottom: 20px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);, 0 0 1em rgba(0,0,0,0.2);}
+.main-media-item-info27 h2{text-shadow: 1px 1px 2px rgba(0,0,0,0.5);, 0 0 1em rgba(0,0,0,0.2);}
+
+
+.main-media-item-info29.main-media-item-info-left ul{margin-bottom: 0px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);, 0 0 1em rgba(0,0,0,0.2);}
+.main-media-item-info29.main-media-item-info-left strong{font-size: 16pt; margin-bottom: 20px; text-shadow: 1px 1px 2px rgba(0,0,0,0);, 0 0 1em rgba(0,0,0,0); color: #003a5c}
+.main-media-item-info29 h2{text-shadow: 1px 1px 2px rgba(255,255,255,0);, 0 0 1em rgba(255,255,255,0); color: #003a5c}
+
+
+
+.main-media-book-active{
+    transition: all 0.1s;
+    -moz-transition: all 0.1s; /* Firefox 4 */
+    -webkit-transition: all 0.1s; /* Safari and Chrome */
+    -o-transition: all 0.1s; /* Opera */
+}

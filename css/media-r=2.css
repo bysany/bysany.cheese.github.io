@@ -1,0 +1,213 @@
+@media screen and (max-width: 3840px) {
+
+
+
+}
+
+@media screen and (max-width: 2200px) {
+    .1g-slider-wrapper{height: 700px; margin-bottom: 50px;}
+}
+
+@media screen and (max-width: 2000px) {
+    .1g-slider-wrapper{height: 650px; margin-bottom: 50px;}
+}
+
+@media screen and (max-width: 1900px) {
+    .1g-slider-wrapper{height: 630px; margin-bottom: 50px;}
+}
+
+@media screen and (max-width: 1800px) {
+    .g-slider{bottom: -80px}
+}
+
+/* Планшеты */
+@media screen and (max-width: 1600px) {
+    
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    .cap-menu li{display: inline-block;}
+
+    .g-slider{bottom: -40px}
+    
+}
+
+/* Планшеты */
+@media screen and (max-width: 1280px) {
+
+    .fix{width: 800px}
+    #swiper-card-slider .slider-item-info h2 {line-height: 60px; font-size: 50px; margin-bottom: 10px;}
+    #swiper-card-slider .slider-item-info p {line-height: 30px; font-size: 30pt; margin-bottom: 25px;}
+    #swiper-card-slider .slider-item-img img{max-width: 270px}
+    .cap-menu li:nth-child(2){display: none}
+    .cap-menu li:nth-child(3){display: none}
+    .cap-menu li:nth-child(4){display: none}
+    .cap-menu li{display: none;}
+
+    .mob-menu-bttn{display: block}
+    .cap-menu{margin-right: 80px; top:6px}
+    .cap-menu li a{padding-bottom: 0px; display: block; line-height: 20pt; border: 0px solid #fff}
+    .cap-menu li a:hover{border: 0px solid #fff; text-decoration: none}
+
+    .slider-more{display: none;}
+
+    .cap-menu{text-align: left}
+
+    
+    .fly-box-html{max-width: 80%}
+
+
+        .slider-more{display: none;}
+
+        
+        .main-media-wrapper-logo img{width: 60%;}
+
+
+}
+
+
+
+
+/* Планшеты */
+@media screen and (max-width: 900px){
+
+
+    .fix{width: 600px; padding: 0px 30px; box-sizing: border-box;}
+    .cap-menu{display: none;}
+    .mob-menu-bttn{right: 30px;}
+    .main-media-wrapper-logo img{max-width: 70%}
+
+    .slide-img, .main-media-wrapper .swiper-slide span{}
+
+    .good-detals-item-img{float: none; width: 100%}
+    .good-detals-item-info{float: none; width: 100%; padding-right: 0px}
+    .mob-menu-bttn{top: 21px;}
+
+    .fly-box-short .fly-box-html{width: 90%;}
+
+
+
+}
+
+
+/* Планшеты */
+@media screen and (max-width: 670px){
+
+    .fix{width: 100%;}
+    .main-media-wrapper-logo img{max-width: 60%}
+    .main-media-wrapper-logo{width: auto;}
+    .slide-item-y-info h2{font-size: 22pt; line-height: 28pt}
+
+    .about-box-title-box{padding: 0px; margin-bottom: 10px}
+    .1g-slider-wrapper{height: 400px}
+    .1g-slider-wrapper{margin-bottom: 50px}
+    
+    
+    .slide-img, .main-media-wrapper .swiper-slide span{}
+    .g-slider h2{font-size: 18pt; padding-top: 20px}
+
+    .main-title-box{padding-top: 30px; min-height: auto}
+    .page-slider .swiper-slide span p img,
+    .page-slider .swiper-slide span{height: 270px;}
+    
+
+
+    .about-box-item:nth-child(2n) .about-box-item-left{width: 100%;}
+    .about-box-item:nth-child(2n) .about-box-item-right{width: 100%;}
+
+    .about-box-item-right{width: 100%;}
+    .about-box-item-left{width: 100%;}
+
+
+    .about-box-wrapper{overflow: hidden;}
+
+
+    .fly-box-close {
+        z-index: 200;
+        border-radius: 50px;
+        color: #fff;
+        position: absolute;
+        background-color: #000;
+        top: 21px;
+        right: 42px;
+        height: 22px;
+        width: 22px;
+        line-height: 22px;
+        font-size: 10pt;    
+    }
+
+    .about-box-item-img{padding: 0px}
+    .about-box-item-img svg{width: 100%;}
+
+    .about-box-item:nth-child(8) .about-box-item-dec img:nth-child(1){width: 150px; left: -90px; bottom: -120px}
+    .about-box-item:nth-child(7) .about-box-item-dec img:nth-child(2){bottom: -60px}
+    .about-box-item:nth-child(7) .about-box-item-dec img:nth-child(1){width: 160px;}
+    .about-box-item:nth-child(3) .about-box-item-dec img:nth-child(1){left: -60px; width: 80px;}
+    .about-box-item:nth-child(4) .about-box-item-dec img:nth-child(1){width: 100px;}
+    .about-box-item:nth-child(5) .about-box-item-dec img:nth-child(1){width: 200px;}
+    .about-box-item:nth-child(6) .about-box-item-dec img:nth-child(2){width: 150px;}
+    .about-box-item:nth-child(6) .about-box-item-dec img:nth-child(1){width: 160px;}
+    .about-box-item:nth-child(9) .about-box-item-dec img:nth-child(1){left: -80px;}
+
+    .about-box-title-box h2{font-size: 22pt}
+
+    .page-good-slider{width: 100%; margin-right: 0px; margin-bottom: 15px}
+
+   
+    .ib_img_gallery_item{width: 100%}
+
+    .ib_txt_position_left .ib_img{width: 100%;}
+    .ib_txt_position_right .ib_img{width: 100%;}
+
+    .ib-box p.downdload-catalog{margin-top: -20px}
+    .ib38 .ib_txt_position_bottom_content{padding: 0px}
+    .ib37 .ib_txt_position_bottom_content, .ib37 .ib-title{padding: 0px}
+
+    .ib_txt_position_right .ib_img{margin-right: 0px}
+    .ib_info{width: 100%;}
+
+
+    .main-media-wrapper .swiper-slide span p{overflow: hidden;}
+    .slide-img{width: auto;}
+
+
+    .footer-contacts{display: block;}
+    
+
+    .main-title-box{margin-top: 0px}
+
+    .good-item{width: auto}
+
+    .about-box-title-box p{font-size: 12pt; line-height: 16pt}
+    .about-box-title-box h2{font-size: 18pt; line-height: 24pt}
+    .about-box-item-content-wrapper{font-size: 12pt; line-height: 16pt}
+    .about-box-item-content-wrapper h3{font-size: 18pt; line-height: 24pt}
+
+    .main-media-wrapper .swiper-slide span p img{width: 140vw; left: -20vw}
+
+    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{display: none;}
+    .page-slider .swiper-slide span p img, .page-slider .swiper-slide span{}
+    .page-slider{background-color: #e6e7e9; background-image: url("../img/bg/bg.jpg"); background-position: center; background-size: 100%}
+    .page-slider img{display: none;}
+    .page-slider .swiper-slide span p{overflow: hidden;}
+
+
+    .page-slider{display: none;}
+
+    .fly-box-html .page-slider img,
+    .fly-box-html .page-slider{display: block;}
+
+    .fly-box-html .page-slider .swiper-slide span p img,
+    .fly-box-html .page-slider .swiper-slide span{height: auto;}
+    .fly-box-html p{margin: 0px;}
+
+    .about-box-wrapper{padding-top: 0px}
+
+    .vac-form{margin: 0px;}
+
+    .vac-items{padding: 0px}
+
+
+}
