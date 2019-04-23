@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a104b2f6-25ba-4e5e-bc0c-461f8bc15816" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/faf30f3b/css/bootstrap-v=1542121171.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/faf30f3b/css/bootstrap-v=1542121171.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/consumer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.fancybox.min.js.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/site-v=1544606824.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site-v=1544606824.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/call.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/call2.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/d/d1.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/d/d2.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/d/d3.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/d/d4.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/d/d6.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/down-arrow.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/email.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/email2.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/profile.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/upwards-arrow.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/preloader.svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/preloader2.svg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cliparts/G1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/G1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cliparts/G1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cliparts/S5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/S5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cliparts/S5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cliparts/S5_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cliparts/S6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/S6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cliparts/S7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/S7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/lp/vendor/jquery-2.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/inc/lp/vendor/jquery-2.1.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js" beforeDir="false" afterPath="$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -34,21 +31,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state relative-caret-position="374">
+              <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -56,31 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/site-v=1544606824.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="140" column="67" selection-start-line="140" selection-start-column="67" selection-end-line="140" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/jquery-nice-select-1.1.0/css/nice-select.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1526">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="616">
+              <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -88,17 +53,72 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts-v=1544606607.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="65" column="14" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="14" />
+            <state relative-caret-position="271">
+              <caret line="292" column="32" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/jquery-nice-select-1.1.0/css/nice-select.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="91" column="47" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/lp/jquery.lazylinepainter-1.7.0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/lp/vendor/jquery-2.1.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="986" column="125" selection-start-line="986" selection-start-column="125" selection-end-line="986" selection-end-column="125" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="95" column="50" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_downloads.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/media-r=2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -123,10 +143,17 @@
       <find>1039</find>
       <find>1039px</find>
       <find>style</find>
-      <find>swiper</find>
       <find>slider-box main-media-wrapper</find>
       <find>swiper-card-slider</find>
       <find>slider</find>
+      <find>swiper</find>
+      <find>111</find>
+      <find>11</find>
+      <find>.js1</find>
+      <find>js1</find>
+      <find>.svg.html</find>
+      <find>svg.h</find>
+      <find>phone</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/inc/swiper</dir>
@@ -139,15 +166,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/partners.html" />
-        <option value="$PROJECT_DIR$/vacancy.html" />
         <option value="$PROJECT_DIR$/css/jquery.fancybox.min.js.css" />
+        <option value="$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css" />
+        <option value="$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js" />
         <option value="$PROJECT_DIR$/contacts.html" />
+        <option value="$PROJECT_DIR$/vacancy.html" />
+        <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/consumer.html" />
         <option value="$PROJECT_DIR$/catalog.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css" />
-        <option value="$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js" />
+        <option value="$PROJECT_DIR$/inc/lp/vendor/jquery-2.1.1.min.js" />
+        <option value="$PROJECT_DIR$/assets/faf30f3b/css/bootstrap-v=1542121171.css" />
         <option value="$PROJECT_DIR$/css/site-v=1544606824.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -156,14 +185,13 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="985" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,10 +199,60 @@
               <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-nice-select-1.1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-nice-select-1.1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="lp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="lp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,25 +282,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555929890532</updated>
-      <workItem from="1555929891663" duration="7977000" />
+      <workItem from="1555929891663" duration="8226000" />
+      <workItem from="1555960981797" duration="864000" />
+      <workItem from="1556001391411" duration="526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7977000" />
+    <option name="totallyTimeSpent" value="9616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="985" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -230,30 +305,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="235" column="58" selection-start-line="235" selection-start-column="55" selection-end-line="235" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vacancy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="74" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery.fancybox.min.js.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -261,30 +327,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/call2.svg.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icons/call2.svg.html" />
     <entry file="file://$PROJECT_DIR$/img/icons/call.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="509" column="328" selection-start-line="509" selection-start-column="326" selection-end-line="509" selection-end-column="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vacancy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3495">
+          <caret line="233" column="54" selection-start-line="233" selection-start-column="52" selection-end-line="233" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3555">
+          <caret line="237" column="54" selection-start-line="237" selection-start-column="52" selection-end-line="237" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/consumer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="243" column="58" selection-start-line="243" selection-start-column="58" selection-end-line="243" selection-end-column="58" />
+        <state relative-caret-position="255">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="397" column="49" selection-start-line="397" selection-start-column="49" selection-end-line="397" selection-end-column="49" />
+        <state relative-caret-position="1425">
+          <caret line="95" column="50" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -293,53 +392,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/media-r=2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/jquery-nice-select-1.1.0/css/nice-select.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1526">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts-v=1544606607.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="65" column="14" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="271">
+          <caret line="292" column="32" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
+    <entry file="file://$PROJECT_DIR$/inc/jquery-nice-select-1.1.0/css/nice-select.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        <state relative-caret-position="299">
+          <caret line="91" column="47" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/lp/jquery.lazylinepainter-1.7.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/lp/vendor/jquery-2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="986" column="125" selection-start-line="986" selection-start-column="125" selection-end-line="986" selection-end-column="125" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faf30f3b/css/bootstrap-v=1542121171.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="323" column="345" selection-start-line="323" selection-start-column="340" selection-end-line="323" selection-end-column="345" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/site-v=1544606824.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="140" column="67" selection-start-line="140" selection-start-column="67" selection-end-line="140" selection-end-column="67" />
+        <state relative-caret-position="616">
+          <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+        <state relative-caret-position="374">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
         </state>
       </provider>
     </entry>

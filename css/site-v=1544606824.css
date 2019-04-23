@@ -76,7 +76,7 @@ h1{margin: 0px}
 
 .slider-menu-img{min-height: 300px;}
 .slider-menu-img a{display: block;}
-.slider-menu-img:after{
+.2slider-menu-img:after{
     content: "";
     padding-top: 100%;
     position: absolute;
@@ -138,7 +138,7 @@ h1{margin: 0px}
 
 .cap-box{
     height: 80px; border-bottom: 2px solid rgba(0,0,0,0.95); z-index: 8888; width: 100%;
-    background-color: #201714; background-image: url("../img/bg/bg2.svg"); background-size: 100%;
+    background-color: #201714; background-image: url("../img/bg/bg.jpg"); background-size: 100%;
     background-repeat: repeat-x; position: relative; background-position: center;
 }
 
@@ -494,7 +494,7 @@ h1{margin: 0px}
 .good-detals-item-info{width: 50%; float: right; box-sizing: border-box; padding-right: 30px}
 
 
-.dec_txt p:first-letter{
+.dec_txt p:2first-letter{
     float: left;
     font-style: normal;
     font-size: 4.80000em;
