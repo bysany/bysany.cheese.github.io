@@ -5,15 +5,15 @@
 }
 
 @media screen and (max-width: 2200px) {
-    .1g-slider-wrapper{height: 700px; margin-bottom: 50px;}
+    .g-slider-wrapper{height: 700px; margin-bottom: 50px;}
 }
 
 @media screen and (max-width: 2000px) {
-    .1g-slider-wrapper{height: 650px; margin-bottom: 50px;}
+    .g-slider-wrapper{height: 650px; margin-bottom: 50px;}
 }
 
 @media screen and (max-width: 1900px) {
-    .1g-slider-wrapper{height: 630px; margin-bottom: 50px;}
+    .g-slider-wrapper{height: 630px; margin-bottom: 50px;}
 }
 
 @media screen and (max-width: 1800px) {
@@ -101,8 +101,8 @@
     .slide-item-y-info h2{font-size: 22pt; line-height: 28pt}
 
     .about-box-title-box{padding: 0px; margin-bottom: 10px}
-    .1g-slider-wrapper{height: 400px}
-    .1g-slider-wrapper{margin-bottom: 50px}
+    .g-slider-wrapper{height: 400px}
+    .g-slider-wrapper{margin-bottom: 50px}
     
     
     .slide-img, .main-media-wrapper .swiper-slide span{}

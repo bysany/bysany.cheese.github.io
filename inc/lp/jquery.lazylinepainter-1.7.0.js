@@ -45,7 +45,7 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
-(function($) {
+(function ($) {
 
     'use strict';
 
@@ -61,9 +61,9 @@
          * @public
          * @param  {object} opts user defined options
          */
-        init: function(userOpts) {
+        init: function (userOpts) {
 
-            return this.each(function() {
+            return this.each(function () {
 
                 var $this = $(this);
                 var data = $this.data(dataKey);
@@ -94,9 +94,9 @@
          * Responsible for drawing path.
          * @public
          */
-        paint: function() {
+        paint: function () {
 
-            return this.each(function() {
+            return this.each(function () {
 
                 // retrieve data object
                 var $this = $(this);
@@ -105,7 +105,7 @@
                 $this.lazylinepainter('erase');
 
                 // begin animation
-                data.rAF = requestAnimationFrame(function(timestamp) {
+                data.rAF = requestAnimationFrame(function (timestamp) {
                     _paint(timestamp, data);
                 });
 
@@ -122,9 +122,9 @@
          * Responsible for pausing path animation.
          * @public
          */
-        pause: function() {
+        pause: function () {
 
-            return this.each(function() {
+            return this.each(function () {
 
                 var data = $(this).data(dataKey);
 
@@ -141,14 +141,14 @@
          * Responsible for resuming path animation.
          * @public
          */
-        resume: function() {
+        resume: function () {
 
-            return this.each(function() {
+            return this.each(function () {
 
                 var data = $(this).data(dataKey);
 
                 if (data.paused) {
-                    requestAnimationFrame(function(timestamp) {
+                    requestAnimationFrame(function (timestamp) {
                         adjustStartTime(timestamp, data);
                     });
                     data.paused = false;
@@ -163,9 +163,9 @@
          * paint can still be called on the element after it has been erased.
          * @public
          */
-        erase: function() {
+        erase: function () {
 
-            return this.each(function() {
+            return this.each(function () {
 
                 // retrieve data object
                 var $this = $(this);
@@ -199,9 +199,9 @@
          * Responsible for removing lazyline data and element from DOM
          * @public
          */
-        destroy: function() {
+        destroy: function () {
 
-            return this.each(function() {
+            return this.each(function () {
 
                 // retrieve / remove data object
                 var $this = $(this);
@@ -220,9 +220,9 @@
          * set
          * @public
          */
-        set: function(progress) {
+        set: function (progress) {
 
-            return this.each(function() {
+            return this.each(function () {
 
                 var $this = $(this);
                 var data = $this.data(dataKey);
@@ -238,7 +238,7 @@
          * get
          * @public
          */
-        get: function() {
+        get: function () {
 
             var $this = $(this);
             var data = $this.data(dataKey);
@@ -250,9 +250,9 @@
          * resize
          * @public
          */
-        resize: function() {
+        resize: function () {
 
-            this.each(function() {
+            this.each(function () {
 
                 var $this = $(this);
                 var data = $this.data(dataKey);
@@ -266,10 +266,7 @@
     };
 
 
-
-
-
-    var _getOptions = function($this, userOpts) {
+    var _getOptions = function ($this, userOpts) {
 
         var defaultOpts = {
 
@@ -317,7 +314,7 @@
     };
 
 
-    var _setupPaths = function(options) {
+    var _setupPaths = function (options) {
 
         var startTime = options.reverse ? options.totalDuration : 0;
 
@@ -375,9 +372,9 @@
      * @param  {number} timestamp identifies current time
      * @param  {object} data      contains options set on init() and paint()
      */
-    var adjustStartTime = function(timestamp, data) {
+    var adjustStartTime = function (timestamp, data) {
         data.startTime = timestamp - data.elapsedTime;
-        requestAnimationFrame(function(timestamp) {
+        requestAnimationFrame(function (timestamp) {
             _paint(timestamp, data);
         });
     };
@@ -391,7 +388,7 @@
      * @param  {number} timestamp   identifies current time
      * @param  {object} data        contains options set on init() and paint()
      */
-    var _paint = function(timestamp, data) {
+    var _paint = function (timestamp, data) {
 
         // set startTime
         if (!data.startTime) {
@@ -410,7 +407,7 @@
 
         if (data.progress < 1) {
 
-            data.rAF = requestAnimationFrame(function(timestamp) {
+            data.rAF = requestAnimationFrame(function (timestamp) {
                 _paint(timestamp, data);
             });
         } else {
@@ -422,7 +419,7 @@
     };
 
 
-    var _updatePaths = function(data) {
+    var _updatePaths = function (data) {
 
         for (var i = 0; i < data.paths.length; i++) {
 
@@ -436,7 +433,7 @@
     };
 
 
-    var _getElapsedProgress = function(data, path) {
+    var _getElapsedProgress = function (data, path) {
 
         var elapsedProgress;
 
@@ -452,7 +449,7 @@
     };
 
 
-    var _getProgress = function(duration, start, elapsed, ease) {
+    var _getProgress = function (duration, start, elapsed, ease) {
 
         var progress;
 
@@ -472,7 +469,7 @@
     };
 
 
-    var _setLine = function(data, path) {
+    var _setLine = function (data, path) {
 
         var el = path.el;
         var length = path.progress * path.length;
@@ -485,7 +482,7 @@
     };
 
 
-    var _updateStrokeCallbacks = function(data, path) {
+    var _updateStrokeCallbacks = function (data, path) {
 
         if (path.progress === 1) {
 
@@ -533,7 +530,7 @@
      * Responsible for updating the paths x / y position.
      * @private
      */
-    var _updatePosition = function(data, path) {
+    var _updatePosition = function (data, path) {
         var index = Math.round((path.progress * (path.length - 1)));
         var position = path.positions[index];
         path.position = {
@@ -543,7 +540,7 @@
     };
 
 
-    var _getTotalDuration = function(paths) {
+    var _getTotalDuration = function (paths) {
         var totalDuration = 0;
         for (var i = 0; i < paths.length; i++) {
             var pathDelay = paths[i].delay || 0;
@@ -553,7 +550,7 @@
     };
 
 
-    var _getLongestDuration = function(paths) {
+    var _getLongestDuration = function (paths) {
         var longestDuration = 0;
         for (var i = 0; i < paths.length; i++) {
             var pathDelay = paths[i].delay || 0;
@@ -573,7 +570,7 @@
      * @param  {number} i    path index
      * @return {object} path svg path element
      */
-    var _getPath = function(data, i) {
+    var _getPath = function (data, i) {
         var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         var $path = $(path);
         data.svg.append($path);
@@ -587,7 +584,7 @@
      * Responsible for returning a svg path length.
      * @return {number} path length
      */
-    var _getPathLength = function(el) {
+    var _getPathLength = function (el) {
         return Math.ceil(el.getTotalLength());
     };
 
@@ -597,7 +594,7 @@
      * Responsible for returning a svg path coords.
      * @return {array} path coords
      */
-    var _getPathPoints = function(el, length) {
+    var _getPathPoints = function (el, length) {
         var arr = [];
         for (var i = 0; i < length; i++) {
             var position = el.getPointAtLength(i);
@@ -605,7 +602,8 @@
                 x: position.x,
                 y: position.y
             });
-        };
+        }
+        ;
         return arr;
     };
 
@@ -619,7 +617,7 @@
      * @param  {object} value contains specific path options
      * @return {object}       obj of path attributes
      */
-    var _getAttributes = function(data, value) {
+    var _getAttributes = function (data, value) {
         return {
             'd': value.path,
             'stroke': !value.strokeColor ? data.strokeColor : value.strokeColor,
@@ -639,7 +637,7 @@
      * @param  {string} viewBox
      * @return {obj}    jquery wrapped svg el
      */
-    var _getSVGElement = function(viewBox) {
+    var _getSVGElement = function (viewBox) {
         var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
         svg.setAttributeNS(null, 'viewBox', viewBox);
         svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
@@ -651,7 +649,7 @@
      * _getStrokeDashArray
      * @private
      */
-    var _getStrokeDashArray = function(path, options, length) {
+    var _getStrokeDashArray = function (path, options, length) {
         var strokeDash;
         if (path.strokeDash) {
             strokeDash = _getStrokeDashString(path.strokeDash, length);
@@ -659,7 +657,8 @@
             strokeDash = _getStrokeDashString(options.strokeDash, length);
         } else {
             strokeDash = length + ' ' + length;
-        };
+        }
+        ;
         return strokeDash;
     };
 
@@ -668,7 +667,7 @@
      * _getStrokeDashString
      * @private
      */
-    var _getStrokeDashString = function(dashArray, length) {
+    var _getStrokeDashString = function (dashArray, length) {
         var strokeDashString = '';
         var strokeDashArray = dashArray.split(',');
         var strokeDashTotal = 0;
@@ -676,12 +675,14 @@
         var strokeDashRemainder;
         for (var i = strokeDashArray.length - 1; i >= 0; i--) {
             strokeDashTotal += Number(strokeDashArray[i]);
-        };
+        }
+        ;
         strokeDashNum = Math.floor(length / strokeDashTotal);
         strokeDashRemainder = length - (strokeDashNum * strokeDashTotal);
         for (var i = strokeDashNum - 1; i >= 0; i--) {
             strokeDashString += (dashArray + ', ');
-        };
+        }
+        ;
         var preArray = strokeDashString + strokeDashRemainder + ', ' + length;
         return preArray.split(',').join('px,') + 'px';
     };
@@ -694,7 +695,7 @@
      * @param  {string}     method  Expects lazylinepainter method name as string.
      * @return {function}           Returns lazylinepainter method.
      */
-    $.fn.lazylinepainter = function(method) {
+    $.fn.lazylinepainter = function (method) {
         if (methods[method]) {
             return methods[method].apply(this, Array.prototype.slice.call(arguments, 1));
         } else if (typeof method === 'object' || !method) {
@@ -708,103 +709,103 @@
     /* penner easing */
     var easing = {
 
-        easeLinear: function(t, b, c, d) {
+        easeLinear: function (t, b, c, d) {
             return c * t / d + b;
         },
 
-        easeInQuad: function(t, b, c, d) {
+        easeInQuad: function (t, b, c, d) {
             return c * (t /= d) * t + b;
         },
 
-        easeOutQuad: function(t, b, c, d) {
+        easeOutQuad: function (t, b, c, d) {
             return -c * (t /= d) * (t - 2) + b;
         },
 
-        easeInOutQuad: function(t, b, c, d) {
+        easeInOutQuad: function (t, b, c, d) {
             if ((t /= d / 2) < 1) return c / 2 * t * t + b;
             return -c / 2 * ((--t) * (t - 2) - 1) + b;
         },
 
-        easeInCubic: function(t, b, c, d) {
+        easeInCubic: function (t, b, c, d) {
             return c * (t /= d) * t * t + b;
         },
 
-        easeOutCubic: function(t, b, c, d) {
+        easeOutCubic: function (t, b, c, d) {
             return c * ((t = t / d - 1) * t * t + 1) + b;
         },
 
-        easeInOutCubic: function(t, b, c, d) {
+        easeInOutCubic: function (t, b, c, d) {
             if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
             return c / 2 * ((t -= 2) * t * t + 2) + b;
         },
 
-        easeInQuart: function(t, b, c, d) {
+        easeInQuart: function (t, b, c, d) {
             return c * (t /= d) * t * t * t + b;
         },
 
-        easeOutQuart: function(t, b, c, d) {
+        easeOutQuart: function (t, b, c, d) {
             return -c * ((t = t / d - 1) * t * t * t - 1) + b;
         },
 
-        easeInOutQuart: function(t, b, c, d) {
+        easeInOutQuart: function (t, b, c, d) {
             if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
             return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
         },
 
-        easeInQuint: function(t, b, c, d) {
+        easeInQuint: function (t, b, c, d) {
             return c * (t /= d) * t * t * t * t + b;
         },
 
-        easeOutQuint: function(t, b, c, d) {
+        easeOutQuint: function (t, b, c, d) {
             return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
         },
 
-        easeInOutQuint: function(t, b, c, d) {
+        easeInOutQuint: function (t, b, c, d) {
             if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
             return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
         },
 
-        easeInSine: function(t, b, c, d) {
+        easeInSine: function (t, b, c, d) {
             return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
         },
 
-        easeOutSine: function(t, b, c, d) {
+        easeOutSine: function (t, b, c, d) {
             return c * Math.sin(t / d * (Math.PI / 2)) + b;
         },
 
-        easeInOutSine: function(t, b, c, d) {
+        easeInOutSine: function (t, b, c, d) {
             return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
         },
 
-        easeInExpo: function(t, b, c, d) {
+        easeInExpo: function (t, b, c, d) {
             return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
         },
 
-        easeOutExpo: function(t, b, c, d) {
+        easeOutExpo: function (t, b, c, d) {
             return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
         },
 
-        easeInOutExpo: function(t, b, c, d) {
+        easeInOutExpo: function (t, b, c, d) {
             if (t == 0) return b;
             if (t == d) return b + c;
             if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
             return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
         },
 
-        easeInCirc: function(t, b, c, d) {
+        easeInCirc: function (t, b, c, d) {
             return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
         },
 
-        easeOutCirc: function(t, b, c, d) {
+        easeOutCirc: function (t, b, c, d) {
             return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
         },
 
-        easeInOutCirc: function(t, b, c, d) {
+        easeInOutCirc: function (t, b, c, d) {
             if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
             return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
         },
 
-        easeInElastic: function(t, b, c, d) {
+        easeInElastic: function (t, b, c, d) {
             var s = 1.70158;
             var p = 0;
             var a = c;
@@ -818,7 +819,7 @@
             return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
         },
 
-        easeOutElastic: function(t, b, c, d) {
+        easeOutElastic: function (t, b, c, d) {
             var s = 1.70158;
             var p = 0;
             var a = c;
@@ -832,7 +833,7 @@
             return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
         },
 
-        easeInOutElastic: function(t, b, c, d) {
+        easeInOutElastic: function (t, b, c, d) {
             var s = 1.70158;
             var p = 0;
             var a = c;
@@ -847,27 +848,27 @@
             return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
         },
 
-        easeInBack: function(t, b, c, d, s) {
+        easeInBack: function (t, b, c, d, s) {
             if (s == undefined) s = 1.70158;
             return c * (t /= d) * t * ((s + 1) * t - s) + b;
         },
 
-        easeOutBack: function(t, b, c, d, s) {
+        easeOutBack: function (t, b, c, d, s) {
             if (s == undefined) s = 1.70158;
             return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
         },
 
-        easeInOutBack: function(t, b, c, d, s) {
+        easeInOutBack: function (t, b, c, d, s) {
             if (s == undefined) s = 1.70158;
             if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
             return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
         },
 
-        easeInBounce: function(t, b, c, d) {
+        easeInBounce: function (t, b, c, d) {
             return c - easing.easeOutBounce(d - t, 0, c, d) + b;
         },
 
-        easeOutBounce: function(t, b, c, d) {
+        easeOutBounce: function (t, b, c, d) {
             if ((t /= d) < (1 / 2.75)) {
                 return c * (7.5625 * t * t) + b;
             } else if (t < (2 / 2.75)) {
@@ -879,7 +880,7 @@
             }
         },
 
-        easeInOutBounce: function(t, b, c, d) {
+        easeInOutBounce: function (t, b, c, d) {
             if (t < d / 2) return easing.easeInBounce(t * 2, 0, c, d) * .5 + b;
             return easing.easeOutBounce(t * 2 - d, 0, c, d) * .5 + c * .5 + b;
         }
