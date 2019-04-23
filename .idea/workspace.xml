@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a104b2f6-25ba-4e5e-bc0c-461f8bc15816" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/faf30f3b/css/bootstrap-v=1542121171.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/faf30f3b/css/bootstrap-v=1542121171.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/consumer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/jquery.fancybox.min.js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site-v=1544606824.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site-v=1544606824.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cliparts/G1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/G1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cliparts/G1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cliparts/S5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/S5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cliparts/S5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cliparts/S5_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cliparts/S6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/S6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cliparts/S7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cliparts/S7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/lp/vendor/jquery-2.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/inc/lp/vendor/jquery-2.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/inc/swiper/dist/css/swiper.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js" beforeDir="false" afterPath="$PROJECT_DIR$/inc/swiper/dist/js/swiper.min-v=1542114851.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vacancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/vacancy.html" afterDir="false" />
-    </list>
+    <list default="true" id="a104b2f6-25ba-4e5e-bc0c-461f8bc15816" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -50,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/scripts-v=1544606607.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="292" column="32" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="32" />
+            <state relative-caret-position="1002">
+              <caret line="293" column="59" lean-forward="true" selection-start-line="293" selection-start-column="59" selection-end-line="293" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -202,6 +180,16 @@
             <path>
               <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,6 +234,22 @@
             <path>
               <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheese.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheese.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -284,12 +288,12 @@
       <updated>1555929890532</updated>
       <workItem from="1555929891663" duration="8226000" />
       <workItem from="1555960981797" duration="864000" />
-      <workItem from="1556001391411" duration="526000" />
+      <workItem from="1556001391411" duration="807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9616000" />
+    <option name="totallyTimeSpent" value="9897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="981" extended-state="0" />
@@ -397,13 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts-v=1544606607.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="292" column="32" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/jquery-nice-select-1.1.0/css/nice-select.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -448,6 +445,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts-v=1544606607.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="293" column="59" lean-forward="true" selection-start-line="293" selection-start-column="59" selection-end-line="293" selection-end-column="59" />
         </state>
       </provider>
     </entry>
