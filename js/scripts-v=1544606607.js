@@ -5,18 +5,17 @@ $(document).ready(function () {
         if ($(document).scrollTop() > 170) {
             $(".cap-box").addClass("cap-box-slide");
             //$(".fly-box-close").css("top","90px");
-
             //$(".cap-box").css('top','-100px');
             //$(".cap-box.cap-box-slide").css('top','0px');
             //$(".services-main-menu").fadeOut();
-            //$(".cap-box").addClass("cap-box-mini");
+            $(".cap-box").addClass("cap-box-mini");
             $(".goontop").fadeIn();
 
         } else {
             $(".cap-box").removeClass("cap-box-slide");
             //$(".fly-box-close").css("top","20px");
             //$(".cap-box").css('top','25px');
-            //$(".cap-box-slide").css('top','-100px');
+            $(".cap-box-slide").css('top', '-100px');
             //$(".services-main-menu").fadeIn();
             //$(".cap-box").removeClass("cap-box-mini");
             $(".goontop").fadeOut();
@@ -394,12 +393,16 @@ function hideAlert() {
 function useAvatar(data) {
     $(".aaa-avatar a").html("<img src='" + data + "'>");
 }
-
-
-//1 пример
+1
+$("#phone1").mask("+375 (99) 9999999", {
+    completed: function () {
+        alert("Вы ввели номер: " + this.val());
+    }
+});
+/*1
 $(function () {
     $("#phone1").mask("+375 ( 99 ) 9999999");
-});
+});*/
 2
 $("#date").mask("99.99.9999", {placeholder: "дд.мм.гггг"});
 $("#index").mask("999999", {placeholder: " "});
