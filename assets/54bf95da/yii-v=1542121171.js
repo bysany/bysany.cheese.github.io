@@ -57,7 +57,7 @@ window.yii = (function ($) {
          * The selector for clickable elements that need to support confirmation and form submission.
          */
         clickableSelector: 'a, button, input[type="submit"], input[type="button"], input[type="reset"], ' +
-            'input[type="image"]',
+        'input[type="image"]',
         /**
          * The selector for changeable elements that need to support confirmation and form submission.
          */
@@ -520,5 +520,3 @@ window.yii = (function ($) {
 window.jQuery(function () {
     window.yii.initModule(window.yii);
 });
-
-

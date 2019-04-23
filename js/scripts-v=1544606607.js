@@ -5,6 +5,7 @@ $(document).ready(function () {
         if ($(document).scrollTop() > 170) {
             $(".cap-box").addClass("cap-box-slide");
             //$(".fly-box-close").css("top","90px");
+
             //$(".cap-box").css('top','-100px');
             //$(".cap-box.cap-box-slide").css('top','0px');
             //$(".services-main-menu").fadeOut();

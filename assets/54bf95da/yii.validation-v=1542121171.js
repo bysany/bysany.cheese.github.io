@@ -95,7 +95,7 @@ yii.validation = (function ($) {
         },
 
         validateImage: function (file, messages, options, deferred, fileReader, image) {
-            image.onload = function () {
+            image.onload = function() {
                 validateImageSize(file, image, messages, options);
                 deferred.resolve();
             };
