@@ -393,16 +393,11 @@ function hideAlert() {
 function useAvatar(data) {
     $(".aaa-avatar a").html("<img src='" + data + "'>");
 }
-1
-$("#phone1").mask("+375 (99) 9999999", {
-    completed: function () {
-        alert("Вы ввели номер: " + this.val());
-    }
-});
-/*1
+
+
 $(function () {
-    $("#phone1").mask("+375 ( 99 ) 9999999");
-});*/
+    $("#phone1").mask("+375(999) 9999999");
+
 2
 $("#date").mask("99.99.9999", {placeholder: "дд.мм.гггг"});
 $("#index").mask("999999", {placeholder: " "});
@@ -420,18 +415,20 @@ $("#number2").mask("~9.99");
 $.mask.definitions['h'] = '[A-Fa-f0-9]';
 $("#color").mask("#hhhhhh");
 
+});
+
 $(function () {
     function maskPhone() {
         var country = $('#country option:selected').val();
         switch (country) {
             case "ru":
-                $("#phone").mask("+7(999) 999-99-99");
+                $("#phone3").mask("+7(999) 999-99-99");
                 break;
             case "ua":
-                $("#phone").mask("+380(999) 999-99-99");
+                $("#phone2").mask("+380(999) 999-99-99");
                 break;
             case "by":
-                $("#phone").mask("+375(999) 999-99-99");
+                $("#phone1").mask("+375(999) 999-99-99");
                 break;
         }
     }
