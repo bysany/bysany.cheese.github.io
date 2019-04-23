@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a104b2f6-25ba-4e5e-bc0c-461f8bc15816" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cc2b4db3/jquery-v=1542121171.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cc2b4db3/jquery-v=1542121171.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts-v=1544606607.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts-v=1544606607.js" afterDir="false" />
-    </list>
+    <list default="true" id="a104b2f6-25ba-4e5e-bc0c-461f8bc15816" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/scripts-v=1544606607.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="407" column="1" lean-forward="true" selection-start-line="407" selection-start-column="1" selection-end-line="407" selection-end-column="1" />
+            <state relative-caret-position="485">
+              <caret line="419" column="40" lean-forward="true" selection-start-line="419" selection-start-column="40" selection-end-line="419" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -301,12 +297,12 @@
       <updated>1555929890532</updated>
       <workItem from="1555929891663" duration="8226000" />
       <workItem from="1555960981797" duration="864000" />
-      <workItem from="1556001391411" duration="6662000" />
+      <workItem from="1556001391411" duration="6882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15752000" />
+    <option name="totallyTimeSpent" value="15972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="981" extended-state="0" />
@@ -503,8 +499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts-v=1544606607.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="407" column="1" lean-forward="true" selection-start-line="407" selection-start-column="1" selection-end-line="407" selection-end-column="1" />
+        <state relative-caret-position="485">
+          <caret line="419" column="40" lean-forward="true" selection-start-line="419" selection-start-column="40" selection-end-line="419" selection-end-column="40" />
         </state>
       </provider>
     </entry>
