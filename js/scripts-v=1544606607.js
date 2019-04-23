@@ -401,18 +401,20 @@ $(function () {
     $("#phone1").mask("+375 ( 99 ) 9999999");
 });
 2
-$("#date").mask("99.99.9999", {placeholder: "дд.мм.гггг" });
-$("#index").mask("999999", {placeholder: " " });
+$("#date").mask("99.99.9999", {placeholder: "дд.мм.гггг"});
+$("#index").mask("999999", {placeholder: " "});
 3
 $("#phone3").mask("8(999) 999-9999", {
-   completed: function(){ alert("Вы ввели номер: " + this.val()); }
+    completed: function () {
+        alert("Вы ввели номер: " + this.val());
+    }
 });
 4
 $("#number").mask("0.9?9");
 5
-$.mask.definitions['~']='[+-]';
+$.mask.definitions['~'] = '[+-]';
 $("#number2").mask("~9.99");
-$.mask.definitions['h']='[A-Fa-f0-9]';
+$.mask.definitions['h'] = '[A-Fa-f0-9]';
 $("#color").mask("#hhhhhh");
 
 $(function () {
